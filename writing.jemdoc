@@ -1,0 +1,46 @@
+# jemdoc: menu{MENU}{index.html}
+#jemdoc: showsource
+= Writing (in Chinese)
+
+蓦然回首间，微风拂过，忽然发现漫天的繁星在夜空中轻吟浅唱. —— 蓦风星吟
+
+== Column writing
+[https://zhuanlan.zhihu.com/gpml2016 高斯世界下的Machine Learning]
+- [http://zhuanlan.zhihu.com/p/39526689 号外！号外！一个关于GP的slack小组]
+- [http://zhuanlan.zhihu.com/p/39118553 Gaussian process 的最后一步——话说超参学习]
+- [http://zhuanlan.zhihu.com/p/35396322 Gaussian process 的重要组成部分——关于那个被广泛应用的Kernel的零零总总]
+- [http://zhuanlan.zhihu.com/p/33993306 Gaussian process的重要组成部分——那个经常被默认忽略的mean function]
+- [http://zhuanlan.zhihu.com/p/33754819 【答疑解惑-II】——不满足正态分布的数据到底能不能用Gaussian process的方法呢？]
+- [http://zhuanlan.zhihu.com/p/31427491 【答疑解惑-I】——Gaussian process的样本生成与其mean和kernel的联系]
+- [https://zhuanlan.zhihu.com/p/31203558 Gaussian process regression的简洁推导——从Function-space角度看]
+- [https://zhuanlan.zhihu.com/p/27554656 Gaussian process regression的导出——权重空间视角下的贝叶斯的方法]
+- [https://zhuanlan.zhihu.com/p/27555501 什么是Gaussian process? —— 说说高斯过程与高斯分布的关系]
+- [https://zhuanlan.zhihu.com/p/26418203 【番外篇】Gaussian process for machine learning实战学习资料推荐整理]
+- [https://zhuanlan.zhihu.com/p/26286575 从随机变量到随机向量再到随机矩阵：那个你不一定知道的矩阵高斯分布]
+- [https://zhuanlan.zhihu.com/p/26193492 那些你知道的和你不知道的性质(II):说说你知道但不熟悉的多维高斯分布]
+- [https://zhuanlan.zhihu.com/p/24874304 那些你知道的和你不知道的性质(I):从简单的一维高斯分布讲起]
+- [https://zhuanlan.zhihu.com/p/24437232 从高斯(正态)分布的导出讲起——为什么高斯分布概率密度函数长成这个样子？]
+
+== Personal work
+Novel
+- [https://www.douban.com/note/565276845/ 唱响在海畔的青春之歌——终篇] -- By 蓦风星吟 2014/04
+- [https://movie.douban.com/review/6822843/ 光棠之恋] -- By 蓦风星吟 2008/07
+
+Modern Chinese poetry
+- [https://www.douban.com/note/565276883/ 海水·海风·海滩·海之夜·海畔伊人] -- By 蓦风星吟 2010/07
+
+Ancient Chinese classical poetry
+- [https://www.douban.com/note/642983435/ 【墨涵词集】之 断桥白——人间至情，断桥至白] -- By 蓦风星吟 2009/03
+- [https://www.douban.com/note/642984684/ 【墨涵词集】之 蝶恋花——风忆秋霜，心吟昨日] -- By 蓦风星吟 2009/03
+
+== Film review
+- [https://www.douban.com/note/642983165/ 飞雪连天射白鹿，笑书神侠倚碧鸳——我眼中的金庸] -- By 蓦风星吟 2013/01
+
+== Book review
+- [https://book.douban.com/review/6822866/ 逝去的曾经I], [https://book.douban.com/review/6822865/ 逝去的曾经II]——观《你好，旧时光》（八月长安）摘记
+- [https://book.douban.com/review/6822860/ 祭奠我们正在逝去的青春——观《那些忧伤的年轻人》（许知远）小记 ]
+
+== Mathematical thinking
+- [https://zhuanlan.zhihu.com/p/30542359 【数学】边界刻画内部——对Green, Gauss, Stokes公式的思考] —— By 蓦风星吟 2011/12
+
+

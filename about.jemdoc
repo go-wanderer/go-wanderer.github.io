@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{index.html}
+#jemdoc: showsource
+= About
+
+== Curriculum Vitae
+- [doc/ZCHEN_CV_Research.pdf Academic version]
+
+== Education
+Doctor of Philosophy, Mathematics (Sep 2013 - Jun 2017) 	
+- Department of Mathematics, [https://le.ac.uk/ University of Leicester, UK]
+- Thesis: [https://lra.le.ac.uk/handle/2381/40502 Gaussian Process Regression Methods and Extensions for Stock Market Prediction] \[ [doc/PhDviva.pdf Slides] \]
+- Supervisors: [http://www.math.le.ac.uk/people/ag153/homepage/ Prof. Alexander N. Gorban] and [https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/bw77 Dr. Bo Wang]
+
+Bachelor of Science, Mathematics and Applied Mathematics (Sep 2009 - Jun 2013)
+- Department of Mathematics and Statistics, [http://www.en.sdu.edu.cn/ Shandong University, China]
+- Thesis (Achieved *Outstanding Bachelor Thesis*, Shandong Provincial Education Department, China): [doc/DirichletBoundaryCondition.pdf The study of Fourth-order Sturm-Liouville Eigenvalue Problems with Dirichlet Boundary Condition]
+- Supervisor: [https://math.wh.sdu.edu.cn/teacher.html?sn=qjg Prof. Jiangang Qi]
+
+== Programming
+
+- Proficient in Lingo, Matlab, Latex, C\+\+, Microsoft Office
+- Familiar with Python (with Tensorflow), R, Maple, Mathematica, SPSS, Origin, etc.
+
+
