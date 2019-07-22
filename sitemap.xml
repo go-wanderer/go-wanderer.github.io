@@ -3,19 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/john-doe/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.gowanderer.co.uk/blog/are-you-doing-the-right-way/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/author/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -31,23 +20,30 @@
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/somrat/</loc>
-    <lastmod>2018-09-12T14:39:16+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.gowanderer.co.uk/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/jamica-jock/</loc>
+    <loc>https://www.gowanderer.co.uk/blog/simple-image-post/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/blog/simple-image-post/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <loc>https://www.gowanderer.co.uk/author/jamica-jock/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.gowanderer.co.uk/author/john-doe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.gowanderer.co.uk/author/somrat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.gowanderer.co.uk/author/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -65,7 +61,7 @@
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/themefisher/</loc>
+    <loc>https://www.gowanderer.co.uk/zexun-chen/</loc>
     <priority>0</priority>
   </url>
   
