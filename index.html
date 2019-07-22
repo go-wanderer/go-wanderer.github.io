@@ -1,66 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Welcome to Dr. Zexun Chen's Homepage</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Zexun Chen</div>
-<div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="about.html">About</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-category">Miscellaneous</div>
-<div class="menu-item"><a href="writing.html">Writing</a></div>
-<div class="menu-item"><a href="link.html">Link</a></div>
-<div class="menu-category">Visitors</div>
-<div class="menu-category"><a href="http://www.webestools.com/global-counter-free-online-live-pages-views-visits-visitors-statistics.html"><img src="http://services.webestools.com/cpt_global/46930-19.png" alt="Free Global Counter" /></a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Welcome to Dr. Zexun Chen's Homepage</h1>
-<div id="subtitle"></div>
-</div>
-<table class="imgtable"><tr><td>
-<img src="Figs/Zexun_photo.jpg" alt="photo" width="160px" height="230px" />&nbsp;</td>
-<td align="left"><p><b>Zexun Chen, Ph.D</b> (<a href="https://en.wikipedia.org/wiki/China"><img src="Figs/China.jpg" alt="china" width="22" height="18" /></a>)
-<br />
-Research Fellow, Predictive Analytics Lab (PAL) <br />
-<a href="http://www.sussex.ac.uk/ei/">School of Engineering and Informatics, University of Sussex, UK</a> <br /></p>
-<p><a href="mailto:sxtpy2010@gmail.com"><img src="Figs/email.png" alt="email" width="35" height="35" /></a><a href="https://www.researchgate.net/profile/Zexun_Chen"><img src="Figs/Researchgate.png" alt="researchgate" width="35" height="35" /></a><a href="https://www.linkedin.com/in/zexun-chen-5165a796/"><img src="Figs/LinkedIn-logp.jpg" alt="researchgate" width="35" height="35" /></a><a href="https://github.com/Magica-Chen"><img src="Figs/Github.png" alt="github" width="35" height="35" /></a><a href="https://www.zhihu.com/people/singinginthewind/activities"><img src="Figs/zhihu.png" alt="zhi" width="35" height="35" /></a></p>
-<p><a href="https://scholar.google.co.uk/citations?user=nmsonfcAAAAJ&hl=en"><img src="Figs/Google-Scholar-logo2.png" alt="scholar" width="127" height="81" /></a></p>
-</td></tr></table>
-<h2>News</h2>
-<p>2018/11, I received the endorsement (Exceptional Promise) from <a href="https://technation.io/visa/">TECH NATION</a>, UK .</p>
-<p>2018/10, my latest research paper "<a href="https://arxiv.org/abs/1810.05598">Interpretable Fairness via Target Labels in Gaussian Process Models</a> " is released on <a href="https://arxiv.org/">arXiv.org</a>.</p>
-<p>2018/07, an online discussion group about Gaussian process models is set up in <a href="https://join.slack.com/t/gaussianprocessmodels/shared_invite/enQtNDE0MzQ1NTgzMDExLTFmMjdkMTNlY2FlMzY2MGI0ZDNkNzA0MGExYTcxNWJlYmU4NDBiZDc3ZGE0N2ViMDRmZjZiNmZlZTg5ZjM3NmQ"><img src="Figs/slack_fig.png" alt="slack" width="55" height="14" /></a>. <a href="https://join.slack.com/t/gaussianprocessmodels/shared_invite/enQtNDE0MzQ1NTgzMDExLTFmMjdkMTNlY2FlMzY2MGI0ZDNkNzA0MGExYTcxNWJlYmU4NDBiZDc3ZGE0N2ViMDRmZjZiNmZlZTg5ZjM3NmQ,">Join us!!!</a></p>
-<p>2017/12, I move to University of Sussex to join in the group of <a href="http://www.sussex.ac.uk/profiles/335583">Dr. Quadrianto</a> on a EPSRC project titled "<a href="http://gtr.rcuk.ac.uk/projects?ref=EP%2FP03442X%2F1">EthicalML: Injecting  Ethical and Legal Constraints into Machine Learning Models</a>" .
-Also, I participate in the research activities in the Predictive Analytics Lab (PAL) co-directed by  <a href="http://www.sussex.ac.uk/profiles/335583">Dr. Quadrianto</a> at Sussex.</p>
-<h2>Contact</h2>
-<p>Dr Zexun Chen <br />
-Room CI-203, Chichester I <br />
-Department of Informatics <br />
-University of Sussex, Falmer <br />
-Brighton, BN1 9RH, United Kingdom <br />
-Email: <a href="mailto:Zexun.Chen@sussex.ac.uk">Zexun.Chen@sussex.ac.uk</a></p>
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/Magica-Chen" data-size="large" data-show-count="true" aria-label="Follow @Magica-Chen on GitHub">Follow @Magica-Chen</a>
+---
+layout: page
+description: "填上一句你想填的话，在index.html中更改"
+---
 
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<div id="footer">
-<div id="footer-text">
-Page generated 2018-11-19 13:55:24 GMT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
-</div>
-</td>
-</tr>
-</table>
-</body>
-</html>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

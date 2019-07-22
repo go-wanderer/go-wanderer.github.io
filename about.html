@@ -1,69 +1,126 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>About</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Zexun Chen</div>
-<div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="about.html">About</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-category">Miscellaneous</div>
-<div class="menu-item"><a href="writing.html">Writing</a></div>
-<div class="menu-item"><a href="link.html">Link</a></div>
-<div class="menu-category">Visitors</div>
-<div class="menu-category"><a href="http://www.webestools.com/global-counter-free-online-live-pages-views-visits-visitors-statistics.html"><img src="http://services.webestools.com/cpt_global/46930-19.png" alt="Free Global Counter" /></a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>About</h1>
+---
+layout: page
+title: "About"
+description: "Hey, this is WangPei."
+header-img: "img/post-bg-rwd.jpg"
+---
+
+<!-- Language Selector -->
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select> -->
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote><p>冰冻三尺 非一日之寒<br>
+    积土成山 非斯须之作</p></blockquote>
+
+    <p>你好，我是<strong>某某</strong>，来自……。</p>
+
+    <p>介绍一下你自己。</p>
+
+    
+
+    <p></p>
+    
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
+    </ul>
 </div>
-<h2>Curriculum Vitae</h2>
-<ul>
-<li><p><a href="doc/ZCHEN_CV_Research.pdf">Academic version</a></p>
-</li>
-</ul>
-<h2>Education</h2>
-<p>Doctor of Philosophy, Mathematics (Sep 2013 - Jun 2017) 	</p>
-<ul>
-<li><p>Department of Mathematics, <a href="https://le.ac.uk/">University of Leicester, UK</a></p>
-</li>
-<li><p>Thesis: <a href="https://lra.le.ac.uk/handle/2381/40502">Gaussian Process Regression Methods and Extensions for Stock Market Prediction</a> [ <a href="doc/PhDviva.pdf">Slides</a> ]</p>
-</li>
-<li><p>Supervisors: <a href="http://www.math.le.ac.uk/people/ag153/homepage/">Prof. Alexander N. Gorban</a> and <a href="https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/bw77">Dr. Bo Wang</a></p>
-</li>
-</ul>
-<p>Bachelor of Science, Mathematics and Applied Mathematics (Sep 2009 - Jun 2013)</p>
-<ul>
-<li><p>Department of Mathematics and Statistics, <a href="http://www.en.sdu.edu.cn/">Shandong University, China</a></p>
-</li>
-<li><p>Thesis (Achieved <b>Outstanding Bachelor Thesis</b>, Shandong Provincial Education Department, China): <a href="doc/DirichletBoundaryCondition.pdf">The study of Fourth-order Sturm-Liouville Eigenvalue Problems with Dirichlet Boundary Condition</a></p>
-</li>
-<li><p>Supervisor: <a href="https://math.wh.sdu.edu.cn/teacher.html?sn=qjg">Prof. Jiangang Qi</a></p>
-</li>
-</ul>
-<h2>Programming</h2>
-<ul>
-<li><p>Proficient in Lingo, Matlab, Latex, C++, Microsoft Office</p>
-</li>
-<li><p>Familiar with Python (with Tensorflow), R, Maple, Mathematica, SPSS, Origin, etc.</p>
-</li>
-</ul>
-<div id="footer">
-<div id="footer-text">
-Page generated 2018-11-19 13:55:52 GMT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
 </div>
-</div>
-</td>
-</tr>
-</table>
-</body>
-</html>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
