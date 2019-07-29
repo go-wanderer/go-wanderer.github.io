@@ -20,17 +20,8 @@
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/blog/simple-post-title/</loc>
-    <lastmod>2018-09-12T14:39:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/blog/simple-image-post/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/author/dr-chen/</loc>
+    <loc>https://www.gowanderer.co.uk/blog/worldadventure/</loc>
+    <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -39,6 +30,10 @@
   
   <url>
     <loc>https://www.gowanderer.co.uk/author/mira/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.gowanderer.co.uk/author/%E8%93%A6%E9%A3%8E%E6%98%9F%E5%90%9F/</loc>
   </url>
   
   <url>
@@ -57,36 +52,7 @@
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/blog/installation/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.gowanderer.co.uk/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/tags/golang/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/tags/hugo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/tags/programming/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/categories/starting/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/tags/theme/</loc>
     <priority>0</priority>
   </url>
   
