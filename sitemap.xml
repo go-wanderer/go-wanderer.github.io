@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.gowanderer.co.uk/blog/are-you-doing-the-right-way/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.gowanderer.co.uk/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <lastmod>2019-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.gowanderer.co.uk/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <lastmod>2019-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gowanderer.co.uk/blog/university-ranking/</loc>
+    <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,15 +30,15 @@
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/jamica-jock/</loc>
+    <loc>https://www.gowanderer.co.uk/author/dr-chen/</loc>
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/john-doe/</loc>
+    <loc>https://www.gowanderer.co.uk/author/fan/</loc>
   </url>
   
   <url>
-    <loc>https://www.gowanderer.co.uk/author/somrat/</loc>
+    <loc>https://www.gowanderer.co.uk/author/mira/</loc>
   </url>
   
   <url>
@@ -52,16 +52,16 @@
   </url>
   
   <url>
+    <loc>https://www.gowanderer.co.uk/dr-chen/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gowanderer.co.uk/blog/installation/</loc>
   </url>
   
   <url>
     <loc>https://www.gowanderer.co.uk/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gowanderer.co.uk/zexun-chen/</loc>
     <priority>0</priority>
   </url>
   

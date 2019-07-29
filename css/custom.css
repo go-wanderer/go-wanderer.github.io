@@ -1,1 +1,7 @@
+h1, .h1 {
+	font-family: 'Lobster', cursive;
+}
 
+td, th {
+    border: 1px solid grey
+}
