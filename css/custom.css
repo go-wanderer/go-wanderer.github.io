@@ -6,3 +6,18 @@ h1, .h1 {
 td, th {
     border: 1px solid grey
 }
+
+.post-entry img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    box-shadow: 0 0 10px #555;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 0px #ece7e7;
+    -moz-box-shadow: 0 0 0px #ece7e7;
+    max-width: 75%;
+    vertical-align: middle;
+    /* whatever else styles you fancy here */
+}
