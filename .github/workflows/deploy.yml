@@ -6,7 +6,7 @@ on:
   pull_request:
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: Oracle Linux Server 8.7
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -24,4 +24,11 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        run: echo TODO
+        uses: appleboy/scp-action@master
+        with:
+          rm: 'true'
+          source: 'public/*'
+          target: '/home/opc/www'
+          host: ${{ secrets.HOST }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          username: ${{ secrets.USERNAME }}
